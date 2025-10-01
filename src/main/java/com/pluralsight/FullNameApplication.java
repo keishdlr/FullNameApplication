@@ -7,20 +7,20 @@ public class FullNameApplication {
 
     public static void main(String[] args) {
 
-        System.out.println("Please enter your name"); // Prompt the user for their first name
-        System.out.println("First name: ");
+        System.out.println("Please enter your name");
+        System.out.print("First name: "); // Prompt the user for their first name
         String firstName = nameScanner.nextLine().trim();
 
-        System.out.println("Middle name: ");
+        System.out.print("Middle name: ");
         String middleName = nameScanner.nextLine().trim();
 
-        System.out.println("Last name: ");
+        System.out.print("Last name: ");
         String lastName = nameScanner.nextLine().trim();
 
-        System.out.println("Suffix: ");
+        System.out.print("Suffix: ");
         String suffix = nameScanner.nextLine().trim();
 
-        System.out.println(firstName + middleName + lastName + suffix);
+        System.out.println("Full Name: " + firstName + " " + middleName + " " + lastName + " " + suffix);
     }
 
 }
