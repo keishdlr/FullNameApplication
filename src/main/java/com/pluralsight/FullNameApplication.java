@@ -20,10 +20,7 @@ public class FullNameApplication {
         System.out.println("Suffix: ");
         String suffix = nameScanner.nextLine().trim();
 
-        System.out.println("First name: " + firstName + "\nMiddle name: " + middleName + "\nLast name: " + lastName + "\nSuffix: " + suffix);
-
-
-
+        System.out.println(firstName + middleName + lastName + suffix);
     }
 
 }
